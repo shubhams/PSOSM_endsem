@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Endsem</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Bootstrap -->
+   <link href="{% static 'tool/css/bootstrap.min.css' %}" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="{% static 'tool/css/basic.css' %}">
+
+</head>
+<body style="padding-top: 20px;">
+
+	<div class="jumbotron" style="margin-top:20px">
+		<div class="container">
+			<h4>{% autoescape off %}{{ welcome_msg }}{% endautoescape %}</h4>
+		</div>
+	</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="{% static 'tool/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
