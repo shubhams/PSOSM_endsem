@@ -1,0 +1,228 @@
+Call_Log_JAN15.csv
+
+Call_Srl_No			Same as Challanno in other tables
+Time_Stamp			Time Stamp of Call
+Emp_Code			Employee Code of the person receiving the call
+Call_Type_Code			Type of Call as given in Call Type Master table
+Name				Name of the caller
+Add_Info			Address of the caller (as in the phone records database)
+CLI				Phone Number
+Extn_No				Extension on which the call is received
+CallAnswered			
+CallDisconnected			
+emp_name			Name of the person receiving the call
+
+
+--------------------------------------------------
+TrafficInformation.csv
+
+Challanno			Unique time stamp of the call
+PISNO				Unique identification of the Employee
+InformTimeStamp			Time Stamp of Call
+Complaint			Type of Complaint
+
+
+--------------------------------------------------
+
+MissingPersonDetails.csv
+
+Challan_No			Unique time stamp of the call
+PoliceStation			Police Station Number
+District			District in which the PS lies
+Year				
+DateMissing			
+FIRNo				SELF DESCRIPTIVE
+ReportingDate			Time Stamp of report
+Name				Name of Missing Person
+FatherName			Father's Name of Missing Person
+Address				SELF DESCRIPTIVE
+Telephone			SELF DESCRIPTIVE
+Sex				SELF DESCRIPTIVE
+DOB				SELF DESCRIPTIVE
+Age				SELF DESCRIPTIVE
+Religion			SELF DESCRIPTIVE
+Height				SELF DESCRIPTIVE
+Built				SELF DESCRIPTIVE
+Complex				SELF DESCRIPTIVE
+Face				SELF DESCRIPTIVE
+Hair				SELF DESCRIPTIVE
+Moustaches			SELF DESCRIPTIVE
+Eyes				SELF DESCRIPTIVE
+Beard				SELF DESCRIPTIVE
+Ear				SELF DESCRIPTIVE
+FaceEyes			SELF DESCRIPTIVE
+Deaf				SELF DESCRIPTIVE
+Speech				SELF DESCRIPTIVE
+Mind				
+Goitre				SELF DESCRIPTIVE
+Leprosy				SELF DESCRIPTIVE
+Stopping			
+MissingArm			SELF DESCRIPTIVE
+MissingFinger			SELF DESCRIPTIVE
+MissingFoot			SELF DESCRIPTIVE
+ToeFingerExtra			SELF DESCRIPTIVE
+Mole				SELF DESCRIPTIVE
+Injurymark			SELF DESCRIPTIVE
+Tattoo				SELF DESCRIPTIVE
+BurnMark			SELF DESCRIPTIVE
+Leucoderma			SELF DESCRIPTIVE
+UpperCloth			SELF DESCRIPTIVE
+UpperColor			SELF DESCRIPTIVE
+UpperTailorMark			SELF DESCRIPTIVE
+LowerCloth			SELF DESCRIPTIVE
+LowerColor			SELF DESCRIPTIVE
+LowerTailorMark			SELF DESCRIPTIVE
+ShoeMake			SELF DESCRIPTIVE
+ShoeColor			SELF DESCRIPTIVE
+SocksMake			SELF DESCRIPTIVE
+SocksColor			SELF DESCRIPTIVE
+ChappelMake			SELF DESCRIPTIVE
+ChappelColor			SELF DESCRIPTIVE
+BareFoot			SELF DESCRIPTIVE
+OtherArticles			SELF DESCRIPTIVE
+PreparedBy			
+CheckedBy			
+ForwardedBy			
+PlaceofMissing			SELF DESCRIPTIVE
+MolePart			SELF DESCRIPTIVE
+InjurymarkPart			SELF DESCRIPTIVE
+TattooPart			SELF DESCRIPTIVE
+BurnMarkPart			SELF DESCRIPTIVE
+LeucodermaPart			SELF DESCRIPTIVE
+OtherInformation		SELF DESCRIPTIVE	
+
+
+--------------------------------------------------
+
+2015.csv
+
+Challan_No			Unique time stamp of the call
+Call_Srl_No			Same as Challanno
+Emp_Code			PREVIOUSLY EXPLAINED
+Time_Stamp			PREVIOUSLY EXPLAINED
+Name				PREVIOUSLY EXPLAINED
+Add_Info			PREVIOUSLY EXPLAINED
+CLI				PREVIOUSLY EXPLAINED
+Complaint_Code			Type of Complaint - Values in the column self descriptive
+Unlisted_Complaint			
+Scratch_Pad			Description of the complaint as stated by the caller (Descriptive Field)
+Incident_Addr			Address of the incidence as reported by the caller
+PS_Code				Code of the Police Station under which the address of incidence falls.
+WOP_Code			
+Extn_No				PREVIOUSLY EXPLAINED
+Priority			Priority Type of the Call
+ChallanType			
+TagChallanNo			
+mps			
+traffic			
+railways			
+net			
+hotline			
+helpline			
+cats			
+filledby			
+ioname			
+iopsname			
+HelplineType			
+HotLineType			
+supervisorname			
+commentstimestamp			
+contactno			
+contactname			
+challanopentime			
+Landmarks			Landmark as reported by the caller		
+emp_name			PREVIOUSLY EXPLAINED
+ps_name				PREVIOUSLY EXPLAINED
+Complaint			PREVIOUSLY EXPLAINED
+Designation			
+calltimestamp			
+District			PREVIOUSLY EXPLAINED		
+automatch			
+srno			
+sex				SELF DESCRIPTIVE
+QST			
+shift			
+Color			
+srct			
+beltno			
+catstagchallan			
+railwaystagchallan			
+XPOINT_L			
+YPOINT_L			
+XPOINT_P			
+YPOINT_P			
+DispatcherDistrict			
+netn			
+catsn			
+trafficn			
+railwaysn			
+mpsn			
+automatchn			
+hotlinen			
+helplinen			
+srctn			
+DestinationModified			
+finalComplaint			The Final Complaint Type (if changed)		
+finalPS				The Final Police Station (if changed)		
+finalcomplaintcode			
+QueueCount			
+AdressRGroup			
+AntiStalking			
+AntiStalkingn			
+HIGH			
+MEDIUM			
+LOW			
+DCR			
+PS			
+AutoClose			
+NewPriority			
+ARGREMARKS			
+
+
+--------------------------------------------------
+
+Vehicle_details.csv
+
+Challan_no			PREVIOUSLY EXPLAINED
+Registrationno			SELF DESCRIPTIVE
+engineno			SELF DESCRIPTIVE
+chasisno			SELF DESCRIPTIVE
+vehiclemodel			SELF DESCRIPTIVE
+vehiclecolor			SELF DESCRIPTIVE
+ownername			SELF DESCRIPTIVE
+policestation			SELF DESCRIPTIVE
+district			PREVIOUSLY EXPLAINED
+firdcrno			
+firdate				SELF DESCRIPTIVE
+stolendate			SELF DESCRIPTIVE
+recoveredfrom			SELF DESCRIPTIVE
+stolenfrom			SELF DESCRIPTIVE
+vehicletype			SELF DESCRIPTIVE
+status				Status of the Complaint
+callertype			Check Column Values
+owneraddress			SELF DESCRIPTIVE
+vehiclemake			SELF DESCRIPTIVE
+ioname			
+iorank			
+iopisno			
+
+
+--------------------------------------------------
+
+Informed_Vehicle.csv
+
+Challan_No			PREVIOUSLY EXPLAINED
+vehicleselecttime		Time at which a vehicle was selected for a particular incident	
+msgtransmittime			Time at which the message was transmitted to the above selected vehicle
+vehiclereachtime		Time at which the vehicle reached the incidence location	
+Call_sign			Unique identification of the Vehicle
+vehiclereporttime		Time at which the vehicle reported the status at the incidence	
+vehiclefreetime			Time at which the vehicle was free from the current incidence
+vehicledselecttime		Time at which the vehicle was available to handle the next incidence	
+Status			
+vehicleselecttime1			
+Comment			
+Assignedby			
+
+
+--------------------------------------------------
